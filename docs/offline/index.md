@@ -5,5 +5,5 @@
 ---
 
 > Author: [Robert Grzelka](https://robert.grzelka.pl)
-> URL: https://robertgrzelka.pl/offline/
+> URL: https://www.ralf-it.com/robertgrzelka.pl/offline/
 

@@ -65,4 +65,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: https://robertgrzelka.pl/sitemap.xml
+Sitemap: https://www.ralf-it.com/sitemap.xml
