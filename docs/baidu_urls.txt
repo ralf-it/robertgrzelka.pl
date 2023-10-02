@@ -1,5 +1,5 @@
-https://www.ralf-it.com/robertgrzelka.pl/blog/azure/2023-10-01-azure-devops-variables/
-https://www.ralf-it.com/robertgrzelka.pl/blog/markdown/basics/
-https://www.ralf-it.com/robertgrzelka.pl/about/
-https://www.ralf-it.com/robertgrzelka.pl/faq/
-https://www.ralf-it.com/robertgrzelka.pl/offline/
+https://robertgrzelka.pl/blog/azure/2023-10-01-azure-devops-variables/
+https://robertgrzelka.pl/blog/markdown/basics/
+https://robertgrzelka.pl/about/
+https://robertgrzelka.pl/faq/
+https://robertgrzelka.pl/offline/
