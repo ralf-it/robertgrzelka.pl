@@ -118,7 +118,7 @@ variables:
 - However, any YAML or template-set variable can usurp the UI set variable. This safety net ensures accidental UI overrides don't wreak havoc. Rule of thumb: Set them in one place for clarity.
 
 ```yaml
-# - name: aqsTenantsListDisabled # ! has to be set in Azure DevOps Pipeline UI as yml take precedence
+# - name: targetsListDisabled # ! has to be set in Azure DevOps Pipeline UI as yml take precedence
 ```
 
 ## **Wrapping Up**
