@@ -1,6 +1,7 @@
 # Azure DNS as external resource for SSL ACME Challenge to bypass Ingress Firewalls
 
 
+
 ## Securing Web Services with Azure DNS: Mastering the SSL ACME Challenge
 
 Secure web services are non-negotiable, and SSL/TLS certificates stand at the forefront of this security. While Let's Encrypt offers these certificates, procuring them becomes a complex task if your server is shielded by a firewall that filters out incoming internet traffic. The culprit? Let's Encrypt's ACME challenge requests. Thankfully, Azure DNS comes to the rescue, providing a smooth path to your solution.
@@ -33,30 +34,6 @@ Understanding the underlying mechanism enhances implementation. Here's a schemat
            +-------+
 ```
 
-### Flow of Certificate Request through ACME Challenge in Azure DNS
-
-Here's a detailed flow to help you visualize the entire process:
-
-```mermaid
-sequenceDiagram
-    participant Client as Client
-    participant Server as Web Server
-    participant Azure as Azure DNS
-    participant LE as Let's Encrypt
-
-    Client->>Server: Request Certificate
-    Server->>LE: Order Certificate
-    LE-->>Server: Send ACME Challenge Details
-    Server->>Azure: Update DNS for ACME Challenge
-    Azure-->>Server: Confirm DNS Update
-    Server->>LE: Confirm ACME Challenge Setup
-    LE-->>Azure: Validate ACME Challenge
-    Azure-->>LE: Challenge Verification Status
-    LE-->>Server: Request for Certificate Signing (CSR)
-    Server->>LE: Submit CSR
-    LE-->>Server: Grant Certificate
-    Server-->>Client: Deliver Certificate
-```
 
 ### Implementing the Solution
 
