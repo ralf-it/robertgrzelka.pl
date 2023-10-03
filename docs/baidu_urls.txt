@@ -1,4 +1,5 @@
 https://robertgrzelka.pl/blog/azure/2023-10-01-azure-devops-variables/
+https://robertgrzelka.pl/blog/azure/2023-10-03-azure-dns-for-letsencrypt-acme-challenge/
 https://robertgrzelka.pl/blog/markdown/basics/
 https://robertgrzelka.pl/about/
 https://robertgrzelka.pl/faq/

@@ -5,12 +5,15 @@
 
 Azure DevOps stands as a formidable platform for continuous integration and continuous delivery (CI/CD). Its power is enriched by its versatile variable management system. This article will guide you through the maze of Azure DevOps variables, revealing the hidden quirks and behaviors across different scopes.
 
+
+## **Usecases This Post Will Answer:**
+
 Ever been puzzled about how Azure DevOps Pipelines handle variables? Wondering how to leverage your pipeline with variable scopes?
 
-## **Questions This Post Will Answer:**
 - How can I trigger my pipeline template in for loop for each of targets from list?
 - How do I disable certain targets from the Azure DevOps UI?
 - Is it possible to use variable groups, or other centralised means, for rendering templates?
+- How to mix compile-time, queue-time, and run-time variables and/or parameters?
 
 ## **Understanding Variable Types**
 
