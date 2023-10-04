@@ -21,16 +21,22 @@ Understanding the underlying mechanism enhances implementation. Here's a schemat
                 |
                 v
            +----+---+
-           | Server |------ request certificate -----+
-           +----+---+                                |
-                |         +----------------+         |
-                +-------->|   Firewall     + /--+    |
-                |         +----------------+    |    |
-                |                               |    |
-                v                               |    |
-           +-------+                           +-------------+
+           | Server |------ request certificate ------+
+           +----+---+       (trigger challenge)       |
+                |                                     |
+                |                                     |
+                |       +-------------+               |
+                |       |   Firewall  + /---------+   |
+                |       +-------------+           |   |
+                |                                 |   |
+                |                                 |   |
+             add TXT record                       |   |
+                |                                 |   |
+                |                                 |   |
+                v                                 |   v
+           +-------+                           +--+---+------+
            | Azure |<--- ACME Challenge -------|Let's Encrypt|
-           |  DNS  |                           +-------------+
+           |  DNS  |   (check TXT record)      +-------------+
            +-------+
 ```
 
@@ -50,7 +56,7 @@ Azure resources:
 - existing Azure App Registration -> `AZUREDNS_APPID`
 - existing Azure DNS -> `AZDNS_ZONE`
 
-#### 1. Azure DNS with ACME Challenge Blueprint (`azure-dns-acme.sh`)
+#### 1. Azure DNS with ACME Challenge Blueprint
 
 > NOTE: Code was cleaned up from anything beside critical parts:
 > - Azure RBAC
