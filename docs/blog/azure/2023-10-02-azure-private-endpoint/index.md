@@ -91,5 +91,5 @@ Stay tuned for more deep dives into Azure's myriad of offerings!
 ---
 
 > Author: [Robert Grzelka](https://robert.grzelka.pl)
-> URL: https://robertgrzelka.pl/blog/azure/2023-10-04-azure-private-endpoint/
+> URL: https://robertgrzelka.pl/blog/azure/2023-10-02-azure-private-endpoint/
 

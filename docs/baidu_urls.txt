@@ -1,6 +1,7 @@
-https://robertgrzelka.pl/blog/azure/2023-10-01-azure-devops-variables/
+https://robertgrzelka.pl/blog/azure/2023-10-04-k8s-cert-manager-azure-dns-letsencrypt/
 https://robertgrzelka.pl/blog/azure/2023-10-03-azure-dns-for-letsencrypt-acme-challenge/
-https://robertgrzelka.pl/blog/azure/2023-10-04-azure-private-endpoint/
+https://robertgrzelka.pl/blog/azure/2023-10-01-azure-devops-variables/
+https://robertgrzelka.pl/blog/azure/2023-10-02-azure-private-endpoint/
 https://robertgrzelka.pl/blog/markdown/basics/
 https://robertgrzelka.pl/about/
 https://robertgrzelka.pl/faq/
