@@ -136,6 +136,6 @@ Stay tuned for more insights, and feel free to reach out for any queries or disc
 
 ---
 
-> Author: RobertGrzelka
+> Author: [Robert Grzelka](https://robertgrzelka.pl)
 > URL: https://robertgrzelka.pl/blog/azure/2023-10-04-k8s-cert-manager-azure-dns-letsencrypt/
 

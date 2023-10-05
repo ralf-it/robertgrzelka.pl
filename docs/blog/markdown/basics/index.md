@@ -776,6 +776,6 @@ With a reference later in the document defining the URL location:
 
 ---
 
-> Author: [Robert Grzelka](https://robert.grzelka.pl)
+> Author: [Robert Grzelka](https://robertgrzelka.pl)
 > URL: https://robertgrzelka.pl/blog/markdown/basics/
 > Repost URL: http://learn.getgrav.org/content/markdown

@@ -45,6 +45,6 @@ Didn't find your questions? Join the [discussions](https://github.com/hugo-fixit
 
 ---
 
-> Author: [Robert Grzelka](https://robert.grzelka.pl)
+> Author: [Robert Grzelka](https://robertgrzelka.pl)
 > URL: https://robertgrzelka.pl/faq/
 
