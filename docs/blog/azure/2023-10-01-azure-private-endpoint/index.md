@@ -2,7 +2,7 @@
 
 
 
-> In my another article [](/blog/azure/2023-10-01-azure-public-network-firewall-access-control/) we described a Public Network Firewall Access Control. Today we will talk about Private Endpoints for VNET Integrated Ingress.
+In my another [article](/blog/azure/2023-10-01-azure-public-network-firewall-access-control/) we described a Public Network Firewall Access Control. Today we will talk about Private Endpoints for VNET Integrated Ingress.
 
 Networking is a crucial component of any cloud infrastructure. With Azure, you can design intricate network topologies that cater to various security, isolation, and connectivity needs. Today, we're going to delve into Inbound Private Networking in Azure, focusing on Azure Private Endpoints and how they facilitate secure inbound connectivity.
 

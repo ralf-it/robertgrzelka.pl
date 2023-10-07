@@ -2,8 +2,7 @@
 
 
 
-
-> In my another article [](/blog/azure/2023-10-01-azure-private-endpoint/) we described a Private Endpoints for VNET Integrated Ingress. Today we will talk about Public Network Firewall Access Control from VNET Subnets and IP Addresses.
+In my another [article](/blog/azure/2023-10-01-azure-private-endpoint/) we described a Private Endpoints for VNET Integrated Ingress. Today we will talk about Public Network Firewall Access Control from VNET Subnets and IP Addresses.
 
 In today's digital age, within the vast ecosystem of Azure, security stands out as one of the most pressing concerns for developers and system administrators alike. As organizations increasingly migrate their assets to the cloud, ensuring their protection becomes an absolute necessity. A critical component of this protective infrastructure is the Azure Key Vault. So, how can we guarantee that only the right entities can access it?
 
@@ -16,7 +15,7 @@ By default, Azure Key Vault is designed to be accessible over a public network. 
 
 ## Disable public network access
 
-On the flip side, turning off public network access implies that only those resources which are part of the same VNET (via Private Endpoint described in my another article [](/blog/azure/2023-10-01-azure-private-endpoint/)), and optionally, certain "trusted" Microsoft services, can bypass the firewall to connect with the Key Vault. This option is inherently more secure, but might not be universally applicable.
+On the flip side, turning off public network access implies that only those resources which are part of the same VNET (via Private Endpoint described [here](/blog/azure/2023-10-01-azure-private-endpoint/)), and optionally, certain "trusted" Microsoft services, can bypass the firewall to connect with the Key Vault. This option is inherently more secure, but might not be universally applicable ie. during development, resource troubleshooting, etc.
 
 ![](images/2023-10-07-03-52-04.png)
 
