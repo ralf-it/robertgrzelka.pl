@@ -1,9 +1,10 @@
-https://robertgrzelka.pl/blog/azure/2023-10-05-azure-api-management-retry-policy-for-sla-improvement/
-https://robertgrzelka.pl/blog/azure/2023-10-04-k8s-cert-manager-azure-dns-letsencrypt/
-https://robertgrzelka.pl/blog/azure/2023-10-03-azure-dns-for-letsencrypt-acme-challenge/
-https://robertgrzelka.pl/blog/azure/2023-10-02-azure-devops-variables/
-https://robertgrzelka.pl/blog/azure/2023-10-01-azure-private-endpoint/
-https://robertgrzelka.pl/blog/azure/2023-10-01-azure-public-network-firewall-access-control/
+https://robertgrzelka.pl/blog/azure/azure-api-management-retry-policy-for-sla-improvement/
+https://robertgrzelka.pl/blog/azure/azure-aks-cert-manager-azure-dns-letsencrypt/
+https://robertgrzelka.pl/blog/kubernetes/azure-aks-cert-manager-azure-dns-letsencrypt-copy/
+https://robertgrzelka.pl/blog/azure/azure-dns-for-letsencrypt-acme-challenge/
+https://robertgrzelka.pl/blog/azure/azure-devops-variables/
+https://robertgrzelka.pl/blog/azure/azure-public-network-firewall-access-control/
+https://robertgrzelka.pl/blog/azure/azure-private-endpoint/
 https://robertgrzelka.pl/blog/markdown/basics/
 https://robertgrzelka.pl/about/
 https://robertgrzelka.pl/faq/

@@ -161,5 +161,5 @@ Security in the cloud is a shared responsibility. While Azure provides the tools
 ---
 
 > Author: [Robert Grzelka](https://robertgrzelka.pl)
-> URL: https://robertgrzelka.pl/blog/azure/2023-10-01-azure-public-network-firewall-access-control/
+> URL: https://robertgrzelka.pl/blog/azure/azure-public-network-firewall-access-control/
 

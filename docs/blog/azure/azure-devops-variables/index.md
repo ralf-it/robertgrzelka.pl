@@ -129,5 +129,5 @@ In the realm of Azure DevOps, mastering variables is akin to holding the keys to
 ---
 
 > Author: [Robert Grzelka](https://robertgrzelka.pl)
-> URL: https://robertgrzelka.pl/blog/azure/2023-10-02-azure-devops-variables/
+> URL: https://robertgrzelka.pl/blog/azure/azure-devops-variables/
 

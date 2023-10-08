@@ -1,4 +1,4 @@
-# Kubernetes Cert Manager generate TLS Cert with Azure DNS and Letsencrypt
+# Azure AKS use Cert Manager to generate TLS Cert with Azure DNS and Letsencrypt
 
 
 # Kubernetes Cert Manager with Azure DNS and LetsEncrypt
@@ -137,5 +137,5 @@ Stay tuned for more insights, and feel free to reach out for any queries or disc
 ---
 
 > Author: [Robert Grzelka](https://robertgrzelka.pl)
-> URL: https://robertgrzelka.pl/blog/azure/2023-10-04-k8s-cert-manager-azure-dns-letsencrypt/
+> URL: https://robertgrzelka.pl/blog/azure/azure-aks-cert-manager-azure-dns-letsencrypt/
 

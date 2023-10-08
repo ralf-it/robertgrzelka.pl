@@ -86,5 +86,5 @@ Azure DNS is your ally when conventional methods fall short. By integrating it, 
 ---
 
 > Author: [Robert Grzelka](https://robertgrzelka.pl)
-> URL: https://robertgrzelka.pl/blog/azure/2023-10-03-azure-dns-for-letsencrypt-acme-challenge/
+> URL: https://robertgrzelka.pl/blog/azure/azure-dns-for-letsencrypt-acme-challenge/
 
