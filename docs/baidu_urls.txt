@@ -1,5 +1,4 @@
 https://robertgrzelka.pl/blog/azure/azure-access-control-to-resources-with-service-principal/
-https://robertgrzelka.pl/blog/kubernetes/k8s-cert-manager-azure-dns-letsencrypt/
 https://robertgrzelka.pl/blog/azure/azure-aks-cert-manager-azure-dns-letsencrypt/
 https://robertgrzelka.pl/blog/azure/azure-dns-for-letsencrypt-acme-challenge/
 https://robertgrzelka.pl/blog/azure/azure-devops-variables/

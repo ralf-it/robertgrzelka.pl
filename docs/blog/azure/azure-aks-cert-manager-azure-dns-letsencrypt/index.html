@@ -21,29 +21,29 @@ Introduction The quest for enhanced security in Kubernetes often leads to the in
 </a><a href=https://mastodon.technology/@xxxx title=Mastodon target=_blank rel="external nofollow noopener noreferrer me"><i class="fa-brands fa-mastodon fa-fw" aria-hidden=true></i>
 </a><a href=mailto:xxxx@xxxx.com title=Email rel=me><i class="fa-regular fa-envelope fa-fw" aria-hidden=true></i>
 </a><a href=https://robertgrzelka.pl/index.xml title=RSS target=_blank rel="external nofollow noopener noreferrer me"><i class="fa-solid fa-rss fa-fw" aria-hidden=true></i></a></div><h3 class=home-disclaimer>robert.grzelka@ralf-it.com</h3></div><aside class="sidebar right-sidebar sticky"><section class="widget tagCloud"><h2 class="widget-title section-title"><i class="fa-solid fa-th fa-fw fa-sm" aria-hidden=true></i>&nbsp;
-Categories</h2><div class=tagCloud-tags><a href=https://robertgrzelka.pl/categories/guides/ class=font_size_20>Guides (8)</a>
-<a href=https://robertgrzelka.pl/categories/blog/ class=font_size_18>Blog (7)</a>
-<a href=https://robertgrzelka.pl/categories/advanced/ class=font_size_8>Advanced (3)</a>
-<a href=https://robertgrzelka.pl/categories/basics/ class=font_size_5>Basics (2)</a></div></section><section class="widget tagCloud"><h2 class="widget-title section-title"><i class="fa-solid fa-tag fa-fw" aria-hidden=true></i>&nbsp;
+Categories</h2><div class=tagCloud-tags><a href=https://robertgrzelka.pl/categories/guides/ class=font_size_20>Guides (7)</a>
+<a href=https://robertgrzelka.pl/categories/blog/ class=font_size_18>Blog (6)</a>
+<a href=https://robertgrzelka.pl/categories/advanced/ class=font_size_6>Advanced (2)</a>
+<a href=https://robertgrzelka.pl/categories/basics/ class=font_size_6>Basics (2)</a></div></section><section class="widget tagCloud"><h2 class="widget-title section-title"><i class="fa-solid fa-tag fa-fw" aria-hidden=true></i>&nbsp;
 Tags</h2><div class=tagCloud-tags><a href=https://robertgrzelka.pl/tags/devops/ class=font_size_20>DevOps
-(6)</a>
-<a href=https://robertgrzelka.pl/tags/azure-dns/ class=font_size_14>Azure DNS
-(4)</a>
-<a href=https://robertgrzelka.pl/tags/dns/ class=font_size_14>DNS
-(4)</a>
-<a href=https://robertgrzelka.pl/tags/firewall/ class=font_size_14>Firewall
-(4)</a>
-<a href=https://robertgrzelka.pl/tags/acme/ class=font_size_10>ACME
+(5)</a>
+<a href=https://robertgrzelka.pl/tags/azure/ class=font_size_12>Azure
 (3)</a>
-<a href=https://robertgrzelka.pl/tags/azure/ class=font_size_10>Azure
+<a href=https://robertgrzelka.pl/tags/azure-dns/ class=font_size_12>Azure DNS
 (3)</a>
-<a href=https://robertgrzelka.pl/tags/lets-encrypt/ class=font_size_10>Let's Encrypt
+<a href=https://robertgrzelka.pl/tags/dns/ class=font_size_12>DNS
 (3)</a>
-<a href=https://robertgrzelka.pl/tags/ssl/ class=font_size_10>SSL
+<a href=https://robertgrzelka.pl/tags/firewall/ class=font_size_12>Firewall
 (3)</a>
-<a href=https://robertgrzelka.pl/tags/tls/ class=font_size_10>TLS
-(3)</a>
-<a href=https://robertgrzelka.pl/tags/cert-manager/ class=font_size_7>Cert-Manager
+<a href=https://robertgrzelka.pl/tags/acme/ class=font_size_8>ACME
+(2)</a>
+<a href=https://robertgrzelka.pl/tags/lets-encrypt/ class=font_size_8>Let's Encrypt
+(2)</a>
+<a href=https://robertgrzelka.pl/tags/ssl/ class=font_size_8>SSL
+(2)</a>
+<a href=https://robertgrzelka.pl/tags/tls/ class=font_size_8>TLS
+(2)</a>
+<a href=https://robertgrzelka.pl/tags/vnet/ class=font_size_8>VNet
 (2)</a></div></section></aside></div></aside><article class="page single"><div class=header><h1 class="single-title animate__animated animate__flipInX"><span>Azure AKS use Cert Manager to generate TLS Cert with Azure DNS and Letsencrypt</span></h1></div><div class=post-meta><div class=post-meta-line><span class=post-author><a href=https://robertgrzelka.pl title=Author target=_blank rel="external nofollow noopener noreferrer author" class=author><img loading=lazy src="https://www.gravatar.com/avatar/16cf583881177c457480eb20310b910b?s=32&amp;d=mp" srcset="https://www.gravatar.com/avatar/16cf583881177c457480eb20310b910b?s=32&amp;d=mp, https://www.gravatar.com/avatar/16cf583881177c457480eb20310b910b?s=32&amp;d=mp 1.5x, https://www.gravatar.com/avatar/16cf583881177c457480eb20310b910b?s=32&amp;d=mp 2x" sizes=auto data-title="Robert Grzelka" data-alt="Robert Grzelka" class=avatar style="background:url(/svg/loading.min.svg)no-repeat 50%" onload='this.title=this.dataset.title,this.alt=this.dataset.alt;for(const e of["style","data-title","data-alt","onerror","onload"])this.removeAttribute(e);this.dataset.lazyloaded=""' onerror='this.title=this.dataset.title,this.alt=this.dataset.alt;for(const e of["style","data-title","data-alt","onerror","onload"])this.removeAttribute(e)'>&nbsp;Robert Grzelka</a></span>
 <span class=post-category>included in <a href=https://robertgrzelka.pl/categories/blog/><i class="fa-regular fa-folder fa-fw" aria-hidden=true></i> Blog</a>&ensp;<a href=https://robertgrzelka.pl/categories/guides/><i class="fa-regular fa-folder fa-fw" aria-hidden=true></i> Guides</a>&ensp;<a href=https://robertgrzelka.pl/categories/advanced/><i class="fa-regular fa-folder fa-fw" aria-hidden=true></i> Advanced</a></span></div><div class=post-meta-line><span title="published on 2023-10-05 00:00:00"><i class="fa-regular fa-calendar-alt fa-fw me-1" aria-hidden=true></i><time datetime=2023-10-05>2023-10-05</time></span>&nbsp;<span title="Updated on 2023-10-08 15:58:06"><i class="fa-regular fa-edit fa-fw me-1" aria-hidden=true></i><time datetime=2023-10-08>2023-10-08</time></span>&nbsp;<span><i class="fa-solid fa-pencil-alt fa-fw me-1" aria-hidden=true></i>623 words</span>&nbsp;<span><i class="fa-regular fa-clock fa-fw me-1" aria-hidden=true></i>3 minutes</span>&nbsp;<span id=busuanzi_container_page_pv class="busuanzi_visitors comment-visitors" data-flag-title="Azure AKS use Cert Manager to generate TLS Cert with Azure DNS and Letsencrypt">
 <i class="fa-regular fa-eye fa-fw me-1" aria-hidden=true></i><span id=busuanzi_value_page_pv>-</span>&nbsp;views
